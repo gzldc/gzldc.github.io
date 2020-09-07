@@ -94,36 +94,6 @@
     <div class='menu navigation dock'>
       <div class='list-h'>
         
-          
-            <a href="/v3/getting-started/"
-              
-              
-              id="v3getting-started">
-              <i class='fas fa-book fa-fw'></i><p>文档</p>
-            </a>
-          
-            <a href="/faqs/"
-              
-              
-              id="faqs">
-              <i class='fas fa-question-circle fa-fw'></i><p>帮助</p>
-            </a>
-          
-            <a href="/examples/"
-              
-              
-              id="examples">
-              <i class='fas fa-play-circle fa-fw'></i><p>示例</p>
-            </a>
-          
-            <a href="/contributors/"
-              
-              
-              id="contributors">
-              <i class='fas fa-fan fa-spin fa-fw'></i><p>社区</p>
-            </a>
-          
-        
       </div>
     </div>
   </div>
@@ -148,7 +118,7 @@
         
         <a class="title flat-box" target="_self" href='/'>
           
-            <img no-lazy class='logo' src='https://cdn.jsdelivr.net/gh/volantis-x/cdn-org/blog/Logo-NavBar@3x.png'/>
+            <img no-lazy class='logo' src='https://gitee.com/gzldc/images/raw/master/IMG_1609.JPG'/>
           
           
           
@@ -439,7 +409,7 @@
       
         
           <div class='post-wrapper'>
-            <article class="post white-box shadow reveal ">
+            <article class="post white-box shadow reveal no-title">
   
 
 
@@ -452,7 +422,7 @@
           
   <h2 class="title">
     <a href="/2020/08/15/%E5%87%BD%E6%95%B0%E5%BC%8F%E7%BC%96%E7%A8%8B%E3%80%901%E3%80%91-%E5%88%9D%E5%A7%8B%E5%87%BD%E6%95%B0%E5%BC%8F%E7%BC%96%E7%A8%8B%20/">
-      函数式编程【1】——初识函数式编程
+      Aug 15, 2020
     </a>
   </h2>
 
@@ -499,7 +469,7 @@
     <a class='notlink'>
       <i class="fas fa-eye fa-fw" aria-hidden="true"></i>
       
-      <span id="/2020/08/15/%E5%87%BD%E6%95%B0%E5%BC%8F%E7%BC%96%E7%A8%8B%E3%80%901%E3%80%91-%E5%88%9D%E5%A7%8B%E5%87%BD%E6%95%B0%E5%BC%8F%E7%BC%96%E7%A8%8B%20/" class="leancloud_visitors" data-flag-title="函数式编程【1】——初识函数式编程">
+      <span id="/2020/08/15/%E5%87%BD%E6%95%B0%E5%BC%8F%E7%BC%96%E7%A8%8B%E3%80%901%E3%80%91-%E5%88%9D%E5%A7%8B%E5%87%BD%E6%95%B0%E5%BC%8F%E7%BC%96%E7%A8%8B%20/" class="leancloud_visitors" data-flag-title="">
       <p>
         <span class="leancloud-visitors-count"></span>
       </p>
@@ -541,7 +511,11 @@
   <section class="article typo">
     <div class="article-entry" itemprop="articleBody">
       
-        <h3 id="1-一段话理解函数式编程"><a href="#1-一段话理解函数式编程" class="headerlink" title="1.一段话理解函数式编程"></a>1.一段话理解函数式编程</h3><p>首先说一下<code>函数</code>和<code>方法</code>的区别，简单的可以理解为同一个东西，都是一个执行块。前者是<code>面向过程</code>的叫法，后者是<code>面向对象</code>的叫法。所以说函数式编程某种程度上来说也可以理解为方法编程。而写过js的同学应该知道，在js中的函数是允许把另外一个函数作为自身参数的。后来仔细看了《java8实战》，谈一下自己的理解。<strong>函数式编程这个概念就是让我们用一种新的思维方式去写java。</strong></p>
+        <hr>
+<p>title: 函数式编程【1】——初识函数式编程</p>
+<p>tags: 函数式编程<br>categories: 函数式编程</p>
+<hr>
+<h3 id="1-一段话理解函数式编程"><a href="#1-一段话理解函数式编程" class="headerlink" title="1.一段话理解函数式编程"></a>1.一段话理解函数式编程</h3><p>首先说一下<code>函数</code>和<code>方法</code>的区别，简单的可以理解为同一个东西，都是一个执行块。前者是<code>面向过程</code>的叫法，后者是<code>面向对象</code>的叫法。所以说函数式编程某种程度上来说也可以理解为方法编程。而写过js的同学应该知道，在js中的函数是允许把另外一个函数作为自身参数的。后来仔细看了《java8实战》，谈一下自己的理解。<strong>函数式编程这个概念就是让我们用一种新的思维方式去写java。</strong></p>
 <h3 id="2-举个栗子"><a href="#2-举个栗子" class="headerlink" title="2.举个栗子"></a>2.举个栗子</h3><p>我们先定义一个简单的<code>People</code>接口。</p>
 <figure class="highlight java"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line"><span class="keyword">public</span> <span class="class"><span class="keyword">interface</span> <span class="title">People</span> </span>&#123;</span><br><span class="line">    <span class="function"><span class="keyword">void</span> <span class="title">say</span><span class="params">()</span></span>;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
 
@@ -668,12 +642,56 @@
   
     
     
+  
+
+  <section class="widget category shadow desktop">
+    
+  <header>
+    
+      <a href='/categories/'><i class="fas fa-folder-open fa-fw" aria-hidden="true"></i><span class='name'>文章分类</span></a>
+    
+  </header>
+
+
+    <div class='content'>
+      <ul class="entry navigation">
+        
+          <li><a class="flat-box"
+            title="/categories/%E5%87%BD%E6%95%B0%E5%BC%8F%E7%BC%96%E7%A8%8B/" href="/categories/%E5%87%BD%E6%95%B0%E5%BC%8F%E7%BC%96%E7%A8%8B/"
+            id="categoriesE587BDE695B0E5BC8FE7BC96E7A88B"
+            ><div class='name'>函数式编程</div><div class='badge'>(1)</div></a></li>
+        
+          <li><a class="flat-box"
+            title="/categories/%E8%AE%BE%E8%AE%A1%E6%A8%A1%E5%BC%8F/" href="/categories/%E8%AE%BE%E8%AE%A1%E6%A8%A1%E5%BC%8F/"
+            id="categoriesE8AEBEE8AEA1E6A8A1E5BC8F"
+            ><div class='name'>设计模式</div><div class='badge'>(2)</div></a></li>
+        
+      </ul>
+    </div>
+  </section>
+
 
   
 
   
     
     
+  
+
+  <section class="widget tagcloud shadow desktop mobile">
+    
+  <header>
+    
+      <a href='/blog/tags/'><i class="fas fa-tags fa-fw" aria-hidden="true"></i><span class='name'>热门标签</span></a>
+    
+  </header>
+
+
+    <div class='content'>
+      <a href="/tags/%E5%87%BD%E6%95%B0%E5%BC%8F%E7%BC%96%E7%A8%8B/" style="font-size: 14px; color: #999">函数式编程</a> <a href="/tags/%E8%AE%BE%E8%AE%A1%E6%A8%A1%E5%BC%8F/" style="font-size: 24px; color: #555">设计模式</a>
+    </div>
+  </section>
+
 
   
 
